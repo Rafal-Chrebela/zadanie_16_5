@@ -7,7 +7,7 @@ var OptimizeJsPlugin = require("optimize-js-plugin");
 module.exports = {
   entry: ["react-hot-loader/patch", "./src/index.js"],
   output: {
-    path: path.resolve(__dirname, "build"),
+    path: path.resolve(__dirname, "docs"),
     filename: "app.bundle.js"
   },
   module: {
